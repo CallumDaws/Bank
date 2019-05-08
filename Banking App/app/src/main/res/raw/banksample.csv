@@ -1,0 +1,8 @@
+MoneyIn,MoneyOut,Date,Description,Reference
+200,,24/05/2019,Cheque Deposit TN04,16
+,50,24/05/2019,Payment for Goods,15
+,625,25/05/2019,Consultancy Fees,14
+1000,,26/05/2019,Cheque Deposit RL02,13
+,25,27/05/2019,ATM Withdrawal High Street,12
+0.46,,28/05/2019,Net Interest,11
+50,,08/05/2019,PayPal,10

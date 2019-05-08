@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+>
+
+    <Button
+        android:id="@+id/VisulisationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkingButton"
+        android:layout_alignEnd="@+id/menu_TV"
+        android:layout_alignRight="@+id/menu_TV"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:minWidth="200dip"
+        android:text="Graphical Breakdown" />
+
+    <Button
+        android:id="@+id/StudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkingButton"
+        android:layout_alignEnd="@+id/menu_TV"
+        android:layout_alignRight="@+id/menu_TV"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp"
+        android:minWidth="200dip"
+        android:text="Student Financials" />
+
+    <Button
+        android:id="@+id/transactionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkingButton"
+        android:layout_alignEnd="@+id/menu_TV"
+        android:layout_alignRight="@+id/menu_TV"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp"
+        android:minWidth="200dip"
+        android:text="Transactions" />
+
+    <TextView
+        android:id="@+id/menu_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Main Menu"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <Button
+        android:text="ACCOUNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkingButton"
+        android:minWidth="200dip"
+        android:layout_below="@+id/menu_TV"
+        android:layout_alignLeft="@+id/menu_TV"
+        android:layout_alignStart="@+id/menu_TV"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/transferButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkingButton"
+        android:layout_alignEnd="@+id/menu_TV"
+        android:layout_alignRight="@+id/menu_TV"
+        android:layout_marginTop="32dp"
+        android:minWidth="200dip"
+        android:text="transfer to savings" />
+
+
+</RelativeLayout>

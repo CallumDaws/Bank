@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Banking App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second_page">secondPage</string>
+    <string name="title_activity_transaction_page">transactionPage</string>
+</resources>
